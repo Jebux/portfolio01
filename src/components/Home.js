@@ -11,7 +11,7 @@ export default function Home(){
         <div className="info-perfil">
           <h2>Front-End React Developer</h2>
           <p>Hi, I'm David Arias. A passionate Front-end React Developer based in Bucaramanga, Colombia. 📍</p>
-          <span><a href="">linkedin</a><a href="">github</a></span>
+          <span><a href="https://www.linkedin.com/in/jesusariaz/">linkedin</a><a href="https://github.com/Jebux">github</a></span>
         </div>
         
         <div className="profile-img">
