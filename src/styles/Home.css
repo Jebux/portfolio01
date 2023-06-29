@@ -1,3 +1,7 @@
+.home{
+  min-height: 100vh;
+}
+
 .section-h1 {
  display: flex;
  align-items: center;
@@ -31,10 +35,10 @@
   background-size: cover;
   border: 3px solid #2d2e32;
   border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
-  height: 35rem;
+  height: 60vh;
   position: relative;
   transition: all 1s ease-in-out;
-  width: 35rem;
+  width: 60vh;
 }
 
 .skills {
@@ -54,6 +58,7 @@
 
 .logos{
   display: flex;
+  margin-top: 1.5rem;
 }
 
 .techStack {
@@ -71,10 +76,10 @@
   border-radius: 50%;
   box-shadow: 0 0 10px rgba(0,0,0,.09);
   cursor: pointer;
-  height: 6.5rem;
-  width: 6.5rem;
+  height: 15vh;
+  width: 15vh;
 }
 
 .techStack li img{
-  width: 3.55rem;
+  width: 3.50rem;
 }
