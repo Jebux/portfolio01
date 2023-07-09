@@ -11,20 +11,16 @@ nav{
 }
 
 .home{
-  background-color:#f9f9f9;
-}
-
-
-.about{
   background-color:#fff;
 }
 
-
 .projects{
   background-color:#f9f9f9;
+  padding: 25px;
 }
 
 .contact{
   background-color:#fff;
+  padding: 50px;
 }
 

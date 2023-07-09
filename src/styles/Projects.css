@@ -1,0 +1,54 @@
+
+.board-projects{
+  overflow: hidden;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background: white;
+  box-shadow: 0px 0px 25px rgba(0,0,0,.3);
+}
+
+.span-progress{
+  color:blueviolet;
+  font-size: 20px;
+}
+
+.board-img{
+  border-radius: 20px;
+  overflow: hidden;
+  width: 70%;
+  height: auto;
+  object-fit:scale-down ;
+  box-shadow: 0px 0px 25px rgba(0,0,0,.2);
+}
+
+.img-project{
+  object-fit: cover;
+  width: 100%;
+}
+
+.board-info{
+  width: 30%;
+  padding: 20px;
+}
+
+.elements-center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width:730px) {
+  .board-projects{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .board-img{
+    width: 100%;
+  }
+  .board-info{
+    width: 100%;
+  }
+}

@@ -1,18 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.d80146dd.css",
-    "main.js": "/static/js/main.0c5d78b0.js",
-    "static/media/profile.jpg": "/static/media/profile.78453b882d136cbd094d.jpg",
+    "main.css": "/static/css/main.5e7184b5.css",
+    "main.js": "/static/js/main.af9c3f72.js",
+    "static/media/English-is-Easy.png": "/static/media/English-is-Easy.debda1f19be4f9cb3893.png",
+    "static/media/profile.jpeg": "/static/media/profile.53daf4197e8d509ed0a3.jpeg",
     "static/media/react.svg": "/static/media/react.afac9c43724070bf6674f2692b7356a9.svg",
+    "static/media/internet.svg": "/static/media/internet.56f3c9c39bdbba6784b2715c7b5abec4.svg",
+    "static/media/github.svg": "/static/media/github.aa7dbf1c73b067eb7a799b5bbe4ccca9.svg",
+    "static/media/linkedin.svg": "/static/media/linkedin.f7ccaa934b53520d74a0a318c0c5224e.svg",
     "index.html": "/index.html",
     "static/media/js.svg": "/static/media/js.4b8ed6522a0b383434d7bb053d302762.svg",
     "static/media/css.svg": "/static/media/css.9cecabbf6ce67609c48bc4f280a11002.svg",
     "static/media/html5.svg": "/static/media/html5.6e7b1b463015c056aeb9a624c8dc2876.svg",
-    "main.d80146dd.css.map": "/static/css/main.d80146dd.css.map",
-    "main.0c5d78b0.js.map": "/static/js/main.0c5d78b0.js.map"
+    "main.5e7184b5.css.map": "/static/css/main.5e7184b5.css.map",
+    "main.af9c3f72.js.map": "/static/js/main.af9c3f72.js.map"
   },
   "entrypoints": [
-    "static/css/main.d80146dd.css",
-    "static/js/main.0c5d78b0.js"
+    "static/css/main.5e7184b5.css",
+    "static/js/main.af9c3f72.js"
   ]
 }

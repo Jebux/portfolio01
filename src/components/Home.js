@@ -3,15 +3,31 @@ import html5logo from "../assets/img/html5.svg"
 import jslogo from "../assets/img/js.svg"
 import css3logo from "../assets/img/css.svg"
 import reactlogo from "../assets/img/react.svg"
+import githublogo from  "../assets/img/github.svg"
+import linkedinlogo from  "../assets/img/linkedin.svg"
 
 export default function Home(){
   return(
     <section className="container-fluid containerfd home" id="Home">
       <div className="section-h1">
         <div className="info-perfil">
-          <h2>Front-End React Developer</h2>
-          <p>Hi, I'm David Arias. A passionate Front-end React Developer based in Bucaramanga, Colombia. 📍</p>
-          <span><a href="https://www.linkedin.com/in/jesusariaz/">linkedin</a><a href="https://github.com/Jebux">github</a></span>
+          <h1 className="no-margin">David Arias</h1>
+          <h4 className="no-margin">Front-End React Developer</h4>
+          <p>Based in Bucaramanga, Colombia. 📍</p>
+          <p>
+          Industrial engineer turned front-end developer skilled in HTML, JavaScript, CSS, and React. I excel in crafting engaging user experiences through clean interfaces. With a problem-solving mindset and a passion for responsive design, I create outstanding websites. 
+          </p>
+          <a href="http://" target="_blank" rel="noopener noreferrer"></a>
+          <span className="span-padding">
+            <a href="https://www.linkedin.com/in/jesusariaz/" target="_blank" rel="noopener noreferrer">
+              <img className="brand-logo" src={linkedinlogo} alt="logo" />
+            </a>
+          </span>
+          <span className="span-padding">
+            <a href="https://github.com/Jebux" target="_blank" rel="noopener noreferrer">
+              <img className="brand-logo" src={githublogo} alt="logo" />
+            </a>
+          </span>
         </div>
         
         <div className="profile-img">

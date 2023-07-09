@@ -2,6 +2,18 @@
   min-height: 100vh;
 }
 
+.brand-logo{
+  width: 40px;
+}
+
+.span-padding{
+  padding: 7px;
+}
+
+.span-padding a{
+  text-decoration: none;
+}
+
 .section-h1 {
  display: flex;
  align-items: center;
@@ -12,6 +24,7 @@
 .info-perfil{
   display: block;
   width: 50%;
+  padding-right: 20px;
 }
 
 @keyframes morph {
@@ -29,7 +42,7 @@
 .profile-img {
   -webkit-animation: morph 8s ease-in-out infinite;
   animation: morph 8s ease-in-out infinite;
-  background-image: url(/src/assets/img/profile.jpg);
+  background-image: url(/src/assets/img/profile.jpeg);
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -76,10 +89,21 @@
   border-radius: 50%;
   box-shadow: 0 0 10px rgba(0,0,0,.09);
   cursor: pointer;
-  height: 15vh;
-  width: 15vh;
+  height: 10vh;
+  width: 10vh;
 }
 
 .techStack li img{
-  width: 3.50rem;
+  width: 2.30rem;
+}
+
+.no-margin{
+  margin:0;
+}
+
+@media (max-width:830px) {
+  .info-perfil{
+    width: 90%;
+  }
+  
 }
